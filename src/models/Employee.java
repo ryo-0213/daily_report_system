@@ -56,7 +56,7 @@ public class Employee {
     private Timestamp updated_at;
 
     @Column(name = "delete_flag", nullable = false)
-    private Integer dalete_flag;
+    private Integer delete_flag;
 
     public Integer getId() {
         return id;
@@ -115,11 +115,11 @@ public class Employee {
     }
 
     public Integer getDalete_flag() {
-        return dalete_flag;
+        return delete_flag;
     }
 
     public void setDalete_flag(Integer dalete_flag) {
-        this.dalete_flag = dalete_flag;
+        this.delete_flag = dalete_flag;
     }
 
 
