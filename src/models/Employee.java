@@ -114,12 +114,12 @@ public class Employee {
         this.updated_at = updated_at;
     }
 
-    public Integer getDalete_flag() {
+    public Integer getDelete_flag() {
         return delete_flag;
     }
 
-    public void setDalete_flag(Integer dalete_flag) {
-        this.delete_flag = dalete_flag;
+    public void setDelete_flag(Integer delete_flag) {
+        this.delete_flag = delete_flag;
     }
 
 
